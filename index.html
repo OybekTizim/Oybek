@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oybek — Portfolio</title>
+<meta name="description" content="Oybekning shaxsiy portfolio sayti — loyihalar, ko'nikmalar va aloqa ma'lumotlari.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">Oybek<span>.</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link active">Bosh sahifa</a></li>
+      <li><a href="#about" class="nav-link">Men haqimda</a></li>
+      <li><a href="#skills" class="nav-link">Ko'nikmalar</a></li>
+      <li><a href="#projects" class="nav-link">Loyihalar</a></li>
+      <li><a href="#contact" class="nav-link">Aloqa</a></li>
+    </ul>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menyu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <p class="hero-greeting fade-in">Assalomu alaykum, men</p>
+      <h1 class="hero-name fade-in">Oybek</h1>
+      <h2 class="hero-role fade-in">Dasturchi &amp; Veb-ishlab chiquvchi</h2>
+      <p class="hero-text fade-in">Zamonaviy, tez va foydalanuvchiga qulay veb-saytlar hamda ilovalar yarataman. Bu — mening probniy (sinov) saytim.</p>
+      <div class="hero-buttons fade-in">
+        <a href="#projects" class="btn btn-primary">Loyihalarni ko'rish</a>
+        <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Pastga scroll qilish">↓</a>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag fade-in">Tanishuv</p>
+      <h2 class="section-title fade-in">Men haqimda</h2>
+      <div class="about-grid">
+        <div class="about-avatar fade-in">
+          <div class="avatar-circle">O</div>
+        </div>
+        <div class="about-text fade-in">
+          <p>Salom! Men Oybek — dasturlash va veb-texnologiyalarga qiziqadigan ishlab chiquvchiman. Bu sayt mening amaliyot va sinov (probniy) loyiham bo'lib, HTML, CSS va JavaScript asosida qurilgan.</p>
+          <p>Men doimiy ravishda yangi texnologiyalarni o'rganaman, real loyihalar ustida ishlayman va sifatli, chiroyli hamda tez ishlaydigan saytlar yaratishga harakat qilaman.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Loyihalar</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Harakat va g'ayrat</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">24/7</span>
+              <span class="stat-label">O'rganishga tayyor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-tag fade-in">Nimalarni bilaman</p>
+      <h2 class="section-title fade-in">Ko'nikmalarim</h2>
+      <div class="skills-grid">
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Semantik, responsiv va zamonaviy sahifalar yaratish.</p>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Interaktiv va dinamik funksiyalarni amalga oshirish.</p>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">📱</div>
+          <h3>Responsiv dizayn</h3>
+          <p>Har qanday qurilmada chiroyli ko'rinadigan saytlar.</p>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🎨</div>
+          <h3>UI/UX</h3>
+          <p>Foydalanuvchi uchun qulay va tushunarli interfeyslar.</p>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🔧</div>
+          <h3>Git &amp; GitHub</h3>
+          <p>Versiyalarni boshqarish va jamoaviy ishlash.</p>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">🚀</div>
+          <h3>O'rganishga ochiqlik</h3>
+          <p>Yangi texnologiyalarni tez o'rganish va qo'llash.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-tag fade-in">Ishlarim</p>
+      <h2 class="section-title fade-in">Loyihalarim</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-in">
+          <div class="project-thumb">01</div>
+          <div class="project-body">
+            <h3>Probniy sayt</h3>
+            <p>Ushbu portfolio sayti — HTML, CSS va JavaScript yordamida qurilgan birinchi sinov loyiham.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-thumb">02</div>
+          <div class="project-body">
+            <h3>Keyingi loyiha</h3>
+            <p>Bu yerga siz o'zingizning navbatdagi loyihangiz haqida ma'lumot qo'shishingiz mumkin.</p>
+            <div class="project-tags"><span>Rejalashtirilmoqda</span></div>
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-thumb">03</div>
+          <div class="project-body">
+            <h3>G'oya kutilmoqda</h3>
+            <p>Yangi g'oyalar va loyihalar uchun joy. Doimo rivojlanish yo'lida.</p>
+            <div class="project-tags"><span>Rejalashtirilmoqda</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <p class="section-tag fade-in">Bog'lanish</p>
+      <h2 class="section-title fade-in">Men bilan aloqaga chiqing</h2>
+      <div class="contact-wrap fade-in">
+        <p class="contact-intro">Savol, taklif yoki hamkorlik uchun quyidagi manzillar orqali bog'lanishingiz mumkin.</p>
+        <div class="contact-links">
+          <a href="mailto:oybekdzhalilov@gmail.com" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span>oybekdzhalilov@gmail.com</span>
+          </a>
+          <a href="https://github.com/oybektizim" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">💻</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Oybek. Barcha huquqlar himoyalangan.</p>
+    <button class="to-top" id="to-top" aria-label="Yuqoriga">↑</button>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
